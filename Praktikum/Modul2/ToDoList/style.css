@@ -1,0 +1,89 @@
+.containerku {
+  width: 100%;
+  height: 100vh;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 70px;
+  background-color: rgb(242, 242, 242);
+  align-content: center;
+}
+.kotak {
+  height: 40px;
+  background-color: rgb(111, 111, 255);
+  padding-top: 8px;
+  padding-left: 20px;
+  color: white;
+  margin: 0;
+}
+.kotak2 {
+  height: 40px;
+  background-color: rgb(72, 162, 123);
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-top: 8px;
+  padding-left: 20px;
+  color: white;
+}
+.listcontainer {
+  background-color: white;
+  margin: 0;
+}
+.todo-list {
+  list-style: none;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-list li button {
+  margin-left: 5px;
+  border-radius: 5px;
+  width: 50px;
+  padding: 1px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.task-text {
+  flex: 1;
+  text-align: start;
+}
+.thebutton {
+  align-content: flex-end;
+}
+
+.add-todo {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+}
+
+.add-todo input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-todo button {
+  width: 50px;
+  background-color: rgb(46, 163, 46);
+  color: white;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

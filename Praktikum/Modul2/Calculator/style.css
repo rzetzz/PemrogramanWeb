@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: rgb(32, 32, 32);
+  padding: 20px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+.calculator form input {
+  border: 0;
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 5px 3px 5px 3px;
+
+  font-size: 12px;
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+
+.dialog {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+form .dialog input {
+  height: 50px;
+  font-size: 50px;
+  text-align: right;
+  flex: 1;
+  background-color: transparent;
+}
